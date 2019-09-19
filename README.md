@@ -5,7 +5,11 @@ This project used deep learning to provide a financial forecast for Hershey stoc
 
 ## Data
 
-The code can be found in ```ForecastNeuralnet.R```. Here, 30 years worth of time-series data on Hersheys monthly share prices is read. 
+The code can be found in ```ForecastNeuralnet.R```. Here, 30 years worth of time-series data on Hersheys monthly share prices is read. The data was taken from an online time series database, from the following URL:
+
+http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts/m-hsy6299.dat
+
+The data was smoothed by taking a moving average every 5 months. 
 
 ## Training and Testing
 
